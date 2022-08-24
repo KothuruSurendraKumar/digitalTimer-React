@@ -1,0 +1,132 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: linear-gradient(to right, white, #cffcf1, #cffcf1, #defafe);
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #1e293b;
+}
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1145px;
+  align-items: center;
+}
+.digital-timer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 300px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+.timer-content {
+  background-color: white;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.timer-header {
+  color: #00d9f5;
+  margin: 0px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+}
+.status {
+  color: #1e293b;
+  margin: 0px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+}
+.setter-container {
+  display: flex;
+}
+.setting-timer-container {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+.timer-container-header {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+.incrementAndDecrement-container {
+  display: flex;
+
+  align-items: center;
+}
+.decrement-option {
+  color: #0f172a;
+  font-weight: 500;
+  background-color: transparent;
+  outline: 0px;
+  border: none;
+  font-size: 40px;
+  margin: 8px;
+  cursor: pointer;
+}
+.timer-container {
+  display: flex;
+  margin: 8px;
+}
+.timer-setter-content {
+  background-image: linear-gradient(to right, #00f5a0, #00d9f5);
+  color: #0f172a;
+  text-align: center;
+  width: 100px;
+  font-size: 30px;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 0px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.setter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.operational-container {
+  display: flex;
+  align-items: center;
+}
+.button-icon {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 18px;
+  margin-right: 18px;
+  padding: 0px;
+  outline: 0px;
+}
+.timer-icon {
+  height: 35px;
+  width: 35px;
+  margin-right: 8px;
+}
+.timer-icon-content {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+}
